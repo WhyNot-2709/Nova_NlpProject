@@ -1,157 +1,156 @@
-Nova NLP: Medical Conversation Summarization & Ailment Suggestion
+# 🚀 **Nova NLP**  
+### *Medical Conversation Summarization & Ailment Suggestion — but make it futuristic.*
 
-Abstractive medical dialogue summarization with downstream ailment inference.
-Built using a fine-tuned encoder–decoder transformer, custom inference pipeline, regex-based hallucination mitigation, and domain-aligned evaluation.
+<div align="center">
 
-Overview
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7F00FF&height=120&section=header" width="100%"/>
 
-Nova NLP converts raw doctor–patient conversations into concise, clinically structured summaries.
-Instead of copying dialogue fragments, the system performs true abstraction: identifying symptoms, treatments, lifestyle recommendations, and follow-ups. It also suggests potential ailment categories based on extracted medical cues.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=800&color=7F00FF&center=true&vCenter=true&width=700&lines=Turning+raw+doctor–patient+dialogues+into+clear+clinical+insight.;Abstractive+summaries+with+low+hallu%2C+high+precision.;Built+for+medical+context+—+not+generic+NLP+fluff.">
 
-Motivation
+</div>
 
-Healthcare documentation is:
+---
 
-Time-intensive
+## 📦 **Model Download (safetensors)**
 
-Prone to omissions
+GitHub threw a tantrum about the file size, so here’s your external link:
 
-Highly dependent on human note-taking skill
+👉 **https://mega.nz/file/b4JCxbiQ#JbJrThhDake1JP1rjwhKA6ZgNo-Yzto9Kr3CvMBsBE0**
 
-Difficult to standardize at scale
+---
 
-Most summarizers ignore medical context or hallucinate confidently. This project aims to reduce cognitive load for clinicians by generating accurate, reliable, well-structured SOAP-style summaries.
+## 🧠 **What Nova NLP Does**
 
-Problem Statement
+Nova NLP turns messy, informal medical conversations into clear, structured, clinically useful summaries — **actual abstraction**, not just copy-paste paraphrasing.
 
-Build an automated system that:
+It also suggests **potential ailment categories** by reading cues, symptoms, and context with domain awareness.
 
-Summarizes long, informal medical conversations into clinically useful text.
+---
 
-Minimizes hallucinations and fabricated medical claims.
+<div align="center">
 
-Suggests probable ailment categories without issuing diagnoses.
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="100%" alt="Animated medical waves">
 
-Key technical challenges:
+</div>
 
-Informal, fragmented conversational data
+---
 
-Domain-specific terminology
+## 🔥 **Why This Exists**
 
-High hallucination risk in generative models
+Medical documentation is:
 
-Evaluating summary quality beyond ROUGE
+- slow  
+- inconsistent  
+- mentally draining  
+- prone to missed info  
 
-Dataset
+Most summarizers hallucinate like they’re speedrunning fiction-writing.  
+Nova NLP keeps things **clinically grounded**, **SOAP-structured**, and **low-hallucination** on purpose.
 
-Training/Validation: Hugging Face medical dialogue datasets
+---
 
-Additional Testing: 30 manually curated conversations from Kaggle, Hugging Face, and synthetic ChatGPT dialogues chosen for ambiguity and rare vocabulary
+## 🎯 **Problem Statement**
 
-Designed to stress-test hallucination, coherence, and medical grounding
+The system must:
 
-Proposed Pipeline
-1. Data Ingestion
+- Summarize medical conversations into structured, clinician-friendly text  
+- Minimize hallucinations + fabricated claims  
+- Suggest plausible ailment categories (not diagnoses)  
+- Stay robust on informal, fragmented dialogue  
 
-Load medical dialogues (JSON/CSV)
+Challenges include domain terminology, coherence, hallucination control, and evaluation beyond surface metrics.
 
-Standardize speaker labels
+---
 
-Preserve context ordering and timestamps
+## 📚 **Dataset**
 
-2. Preprocessing
+**Training / Validation:** Hugging Face medical dialogue datasets  
+**Extra Testing:**  
+– 30 curated conversations from Kaggle  
+– HF medical sets  
+– Synthetic ambiguous / rare-vocab samples  
 
-Remove formatting noise
+Designed to aggressively stress-test grounding and safety.
 
-Tokenize and normalize case
+---
 
-Maintain clinical terminology consistency
+## 🏗️ **Full Pipeline**
 
-3. Model Training
+### **1. Data Ingestion**
+- Load JSON/CSV medical dialogues  
+- Standardize speaker tags  
+- Preserve order & timestamps  
 
-Fine-tuned pretrained encoder–decoder transformer
-(T5/BART family chosen for stability + biomedical evidence)
+### **2. Preprocessing**
+- Remove formatting noise  
+- Normalize casing  
+- Keep clinical terms consistent  
 
-Split into train, dev, dev2, tune, and final validation for controlled iteration
+### **3. Model Training**
+- Fine-tuned encoder–decoder transformer (T5/BART family)  
+- Multi-stage validation splits  
+- Mixed precision + CUDA acceleration  
 
-Mixed-precision + CUDA acceleration for efficient training
+### **4. Inference Pipeline**
+Includes:  
+- Keyword extraction  
+- Ailment suggestion module  
+- Safety filtering  
+- Structured summary assembly  
 
-4. Inference Pipeline
+### **5. Hallucination Control**
+Regex-based cleanup for:  
+- Fake drug names  
+- Unreal dosages  
+- Invented diagnoses  
 
-Custom infer.py with:
+Final validation ensures summary grounding.
 
-Keyword extraction
+### **6. Evaluation**
+- ROUGE → too shallow  
+- **BERTScore** → semantic + factual  
+- Clinician-style scoring for reliability  
 
-Ailment categorization suggestions
+---
 
-Safety filtering
+## 🧾 **Expected Outcomes**
 
-Summary restructuring
+- Clear, concise, clinically faithful summaries  
+- Lower hallucination rates  
+- Helpful ailment categorization  
+- Reproducible research pipeline  
 
-5. Hallucination Control
+---
 
-Regex patterns remove:
+## 🩺 **Applications**
 
-Fake drug names
+- Telemedicine automation  
+- Clinical documentation workflows  
+- EMR structuring  
+- Patient communication aids  
+- Safety-grounded medical chatbots  
 
-Unsupported dosages
+---
 
-Invented diagnoses
+## 🔧 **Tech Stack**
 
-Post-generation validation ensures summaries stay grounded in inputs
+<div align="center">
 
-6. Evaluation
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD43B?style=for-the-badge&logo=huggingface&logoColor=black)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Regex](https://img.shields.io/badge/Regex-7F00FF?style=for-the-badge)
 
-Started with ROUGE (structural but shallow)
+</div>
 
-Switched to BERTScore for semantic understanding, factual coherence, and domain relevance
+---
 
-Manual clinician-style qualitative scoring for reliability
+<div align="center">
 
-Expected Outcomes
+### ✨ *Healthcare meets AI — without hallucinating into the void.*
 
-Concise, medically faithful conversation summaries
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7F00FF&height=100&section=footer" width="100%"/>
 
-Reduced hallucination rate during inference
-
-Lightweight ailment suggestion for downstream triaging or EMR systems
-
-Reproducible, extensible research pipeline
-
-Applications
-
-Telemedicine documentation
-
-Clinical workflow automation
-
-Patient communication & discharge summaries
-
-EMR data cleaning and structuring
-
-Medical chatbot grounding and safety systems
-
-Repository Contents
-
-/src – model, dataloaders, training scripts
-
-/infer.py – inference + hallucination control
-
-requirements.txt
-
-Report.pdf
-
-Example model outputs
-
-README (this file)
-
-Tech Stack
-
-Python
-
-PyTorch
-
-Hugging Face Transformers
-
-CUDA for GPU acceleration
-
-Pandas, Regex, TQDM
+</div>
