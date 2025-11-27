@@ -1,0 +1,232 @@
+dialogue,gold_soap,Unnamed: 2,prediction
+Patient: I've had a dull chest ache for two days, mostly when climbing stairs. No fever or cough. Doctor: Any nausea or sweating? Patient: Mild sweating yesterday. Doctor: Family history? Patient: Dad had a heart attack.,"Subjective: 2-day exertional chest discomfort with mild diaphoresis and positive cardiac family history. Objective: Vitals stable. Assessment: Suspected stable angina. Plan: ECG, troponins, lipid panel, limit exertion, follow-up.","S: The patient reports a dull chest ache for two days. The patient has a history of similar symptoms.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Chest discomfort raises concern for possible acute coronary syndrome.
+
+P: Recommend immediate emergency evaluation and avoidance of physical exertion."
+Patient: My lower back hurts since moving furniture last week. Doctor: Any tingling or bowel issues? Patient: No, just stiffness.,"Subjective: Acute low back pain after heavy lifting without red flags. Objective: Lumbar tenderness, normal neuro exam. Assessment: Mechanical lumbar strain. Plan: NSAIDs, heat, stretching, avoid lifting.","S: The patient reports pain in the lower back since moving furniture last week.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: I've been coughing with yellow mucus for 5 days. Doctor: Fever? Patient: Low fever yesterday.,"Subjective: 5-day productive cough with low-grade fever. Objective: Mild rhonchi. Assessment: Acute bronchitis. Plan: Hydration, rest, symptomatic care.",,"S: The patient reports a 5-day history of coughing with yellow mucus and a low fever. The patient also experienced a fever yesterday.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Likely uncomplicated viral upper respiratory infection.
+
+P: Supportive care with hydration, rest, and antipyretics. Avoid unnecessary antibiotics. Seek medical attention for worsening breathing, dehydration, prolonged fever, or severe symptoms."
+Patient: My periods have been heavier for 3 months. Doctor: Any dizziness? Patient: Sometimes.,"Subjective: 3-month menorrhagia with intermittent lightheadedness. Objective: Pale conjunctiva. Assessment: Suspected iron-deficiency anemia. Plan: CBC, iron supplementation, discuss hormonal therapy.",,"S: The patient reports a 3-month history of heavier menstrual periods and occasional dizziness during these periods.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: O,
+P,
+S,
+A,920A,940P: The primary diagnosis is heavy menstrual periods with accompanying dizziness. The patient's symptoms include heavy periods and dizziness, but no specific symptoms are specified. A): The patient presents with a history of heavy periods over the past 3 months, accompanied by dizziness and occasional episodes of dizziness without specific symptoms. The differential diagnosis could include other menstrual disorders, but these are less likely given the lack of specific symptoms and the absence of specific symptomatology. C: The plan is to"
+Patient: Sudden sharp pain in right ear after swimming. Doctor: Any discharge? Patient: No.,"Subjective: Acute otalgia post-swimming without discharge. Objective: Erythematous external canal. Assessment: Otitis externa. Plan: Topical antibiotics, dry ear precautions.",,"S: C:
+D:
+E:
+F:
+G:
+H:
+I:
+J:
+K:
+L:
+A):
+A
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Ear discomfort likely related to eustachian tube dysfunction or local irritation.
+
+P: Recommend avoiding cotton buds and earbuds, using warm compresses, staying hydrated, and trialing NSAIDs for discomfort. Seek follow-up if worsening pain, fever, drainage, persistent hearing loss, or severe dizziness develops."
+Patient: I've been unusually thirsty and peeing a lot for 2 weeks. Doctor: Family history? Patient: Mom has diabetes.,"Subjective: Polyuria and polydipsia for 2 weeks with positive family history. Objective: Elevated random glucose. Assessment: Suspected type 2 diabetes. Plan: HbA1c, lifestyle counseling.",,"S: The patient reports being unusually thirsty and peeing a lot for 2 weeks. The patient's mother has a history of diabetes.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: My right knee clicks and hurts after running. Doctor: Swelling? Patient: Slight.,"Subjective: Post-running knee pain and clicking with mild swelling. Objective: Tender lateral joint line. Assessment: Possible meniscal irritation. Plan: Rest, ice, NSAIDs, imaging if persistent.",,"S: A"": The patient presents with slight right knee swelling and pain post-run, specifically described as right knee tenderness and swelling post-runners' knee. P:""A: The primary diagnosis is right knee soreness secondary to running, with a secondary finding of swelling and tenderness of the same type. The differential diagnosis could include other causes of knee pain or swelling, but these are less likely given the clinical presentation and the absence of specific imaging or imaging data. R: The plan includes writing a clinical assessment based solely on dialogue and non-explanation of the patient findings.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: I havenÂt slept well for a month. Mind keeps racing. Doctor: Caffeine? Patient: 3 coffees daily.,"Subjective: 1-month insomnia with high caffeine intake. Objective: Fatigued but stable. Assessment: Sleep disturbance likely caffeine-related. Plan: Reduce caffeine, sleep hygiene.",,"S: S: The first step is to
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: My throat burns after eating spicy food. Doctor: Any regurgitation? Patient: Yes.,"Subjective: Post-meal heartburn and regurgitation. Objective: Normal exam. Assessment: GERD. Plan: PPI trial, avoid triggers.",,"S: The patient reports experiencing a burning sensation in the throat after consuming spicy food. The patient has a history of vomiting and has experienced similar symptoms in the past.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: IÂve had itchy red patches on elbows for years. Doctor: Family history? Patient: Dad too.,"Subjective: Chronic pruritic plaques with family history. Objective: Erythematous scaling plaques. Assessment: Psoriasis. Plan: Topical steroids, dermatology referral.",,"S: The patient reports having itchy red patches on their elbows for years. The patient has a history of similar issues with his father and a family history of the same.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Ear discomfort likely related to eustachian tube dysfunction or local irritation.
+
+P: Recommend avoiding cotton buds and earbuds, using warm compresses, staying hydrated, and trialing NSAIDs for discomfort. Seek follow-up if worsening pain, fever, drainage, persistent hearing loss, or severe dizziness develops."
+Patient: Sudden nausea and vomiting since morning. Doctor: Abdominal pain? Patient: Mild cramps.,"Subjective: Acute nausea/vomiting with mild cramping. Assessment: Likely viral gastroenteritis. Plan: Hydration, antiemetics.",,"S: Patient reports sudden onset of nausea and vomiting since morning, accompanied by mild abdominal cramps. R:
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: My vision gets blurry after long screen use. Doctor: Headaches? Patient: Yes.,"Subjective: Screen-related blurry vision and headaches. Assessment: Eye strain. Plan: Screen breaks, eye exam.",,"S: The patient reports experiencing blurry vision after long screen use. The patient has a history of visual disturbances, including headaches and blurred vision.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: I've felt unusually sad for two months, low energy. Doctor: Any suicidal thoughts? Patient: No.,"Subjective: 2-month low mood and fatigue without suicidal ideation. Assessment: Mild depressive symptoms. Plan: PHQ-9, counseling referral.","S: The patient reports feeling unusually sad for two months. The patient has a history of depression and significant emotional distress.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: Sharp pain in left big toe, swollen since last night. Doctor: Alcohol intake? Patient: Weekend beers.,"Subjective: Acute painful swollen first MTP joint with recent alcohol. Assessment: Suspected gout. Plan: NSAIDs, uric acid level.","S: The patient reports a sharp pain in the left big toe, described as tenderness and swelling. The patient has a history of similar symptoms in the past.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: I get dizzy when standing quickly. Doctor: Hydration? Patient: Barely drink water.,Subjective: Positional dizziness with poor hydration. Assessment: Likely dehydration-related orthostatic symptoms. Plan: Increase fluids.,,"S: The patient reports dizziness when standing quickly. The chief complaint is related to the patient's lack of hydration. The patient has been unable to drink water due to dizziness.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: My child keeps pulling at her ear and crying. Doctor: Fever? Parent: Low fever.,"Subjective: Ear pulling and irritability with low-grade fever. Assessment: Possible acute otitis media. Plan: Exam, analgesics, consider antibiotics.",,"S: The patient's mother reports that her child is pulling at her ear and crying. The child has a history of low fever. The mother expresses concern about the child's condition.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Ear discomfort likely related to eustachian tube dysfunction or local irritation.
+
+P: Recommend avoiding cotton buds and earbuds, using warm compresses, staying hydrated, and trialing NSAIDs for discomfort. Seek follow-up if worsening pain, fever, drainage, persistent hearing loss, or severe dizziness develops."
+Patient: IÂve had burning when I pee for 3 days. Doctor: Any blood? Patient: Slight.,"Subjective: 3-day dysuria with trace hematuria. Assessment: Suspected UTI. Plan: Urinalysis, oral antibiotics.",,"S: The patient reports a burning sensation when peeing for three days and a slight sensation of blood in the urine.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: ""P:"":""S: Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â Â Â Â Â Â Â Â Â A-"":[],""A-"",""A-sch-p""-u-"":""S"": Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â P: Â  Â  Â  Â  Â  Â  Â  Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ""A-%"" A-phthalmology,"" referring to the use of the spinal cord injury as a primary diagnosis. The patient has a history of multiple sclerosis (MS) and is currently undergoing treatment with intravenous fluids (VIA). A-""P"": Perform a clinical assessment using the dialogue as outlined in the SOAP notes. The aim is to assess the patient for signs of post-surgical complications such as bleeding or infection. No specific lab results or imaging data are provided in the notes. P:""P"": Initiate the treatment plan as described in the dialogue and monitor for any changes in symptoms or changes in urine flow. If necessary, proceed with the prescribed by the physician. If the patient presents with a complication such as a urinary tract infection (UTI), the patient will be referred to a specialist for further evaluation. The prognosis depends on the effectiveness of the treatment and the response to the management plan.
+
+P: O-
+A-
+P-
+S-
+O2A-"":""P-"":""A-"":[""S-A-"":"""",""A-isch-p-u- });A-:""A-"":{""S"": The patient's name is referred to as ""S,"" and the patient's symptoms are noted as burning sensation, blood in urine, and slight urine discharge. A -"":""P:"
+Patient: I wheeze when running. Doctor: History of asthma? Patient: As a kid.,"Subjective: Exercise-induced wheezing with remote asthma history. Assessment: Possible exercise-induced bronchoconstriction. Plan: Spirometry, rescue inhaler.",,"S: The patient reports a history of wheezing as a child, exacerbated by physical exertion. The patient has a family history of asthma exacerbated by childhood asthma. The condition has been a concern since childhood.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: Constant headache for a week. Doctor: Sleep? Patient: 4 hours a night.,"Subjective: 1-week persistent headache with sleep deprivation. Assessment: Tension headache. Plan: Sleep hygiene, hydration, NSAIDs.",,"S: The patient reports a constant headache for a week, leading to a decrease in sleep to 4 hours per night. The patient has a history of migraines and has been experiencing similar symptoms for several years.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Ear discomfort likely related to eustachian tube dysfunction or local irritation.
+
+P: Recommend avoiding cotton buds and earbuds, using warm compresses, staying hydrated, and trialing NSAIDs for discomfort. Seek follow-up if worsening pain, fever, drainage, persistent hearing loss, or severe dizziness develops."
+Patient: Tingling in fingers when typing. Doctor: Wrist pain? Patient: Yes.,"Subjective: Finger paresthesia associated with typing and wrist discomfort. Assessment: Suspected carpal tunnel syndrome. Plan: Wrist splint, ergonomic changes.",,"S: The patient reports tingling in the fingers when typing. The patient has a history of wrist pain associated with typing.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: Stomach cramps after drinking milk. Doctor: Happens often? Patient: Yes.,"Subjective: Recurrent abdominal cramps after dairy intake. Assessment: Suspected lactose intolerance. Plan: Dietary modification, lactase trial.",,"S: The patient reports experiencing stomach cramps after drinking milk. The patient has a history of similar symptoms following dairy consumption. The condition is described as recurrent.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: Shortness of breath climbing stairs. Doctor: Smoking history? Patient: 10 years.,"Subjective: Dyspnea on exertion with smoking history. Assessment: Possible early COPD. Plan: PFTs, smoking cessation counseling.",,"S: Patient reports shortness of breath climbing stairs. Patient has a history of smoking for 10 years. The patient has a long-standing smoking history. A: The primary diagnosis is a chronic obstructive pulmonary disorder (COPD) secondary to smoking cessation.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Ear discomfort likely related to eustachian tube dysfunction or local irritation.
+
+P: Recommend avoiding cotton buds and earbuds, using warm compresses, staying hydrated, and trialing NSAIDs for discomfort. Seek follow-up if worsening pain, fever, drainage, persistent hearing loss, or severe dizziness develops."
+Patient: Nosebleeds twice this week. Doctor: Any trauma? Patient: No.,"Subjective: Recurrent epistaxis without injury. Assessment: Likely mucosal dryness. Plan: Humidification, nasal saline.",,"S: The patient reports experiencing nosebleeds twice this week.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: Painful urination and lower belly pressure. Doctor: Fever? Patient: No.,"Subjective: Dysuria and suprapubic discomfort without fever. Assessment: Uncomplicated cystitis. Plan: Urinalysis, antibiotics.",,"S: The patient reports painful urination and lower belly pressure. Painful urination reported. A: Lower belly pressure reported. Denied fever.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Chest discomfort raises concern for possible acute coronary syndrome.
+
+P: Recommend immediate emergency evaluation and avoidance of physical exertion."
+Patient: My joints feel stiff in the morning for an hour. Doctor: Family history? Patient: Mom has arthritis.,"Subjective: Morning joint stiffness >1 hour with family history. Assessment: Possible rheumatoid arthritis. Plan: ESR, RF, rheumatology referral.",,"S: The patient reports experiencing stiffness in the joints for an hour in the morning. The patient's mother has a history of arthritis. Family history of similar symptoms is noted.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: I feel shaky and hungry if I skip meals. Doctor: Diabetes? Patient: No.,"Subjective: Symptoms suggestive of hypoglycemia when fasting. Assessment: Possible reactive hypoglycemia. Plan: Dietary counseling, glucose monitoring.",,"S: The patient reports feeling shaky and hungry if they skip meals. P:
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: Constant heart fluttering. Doctor: Caffeine/energy drinks? Patient: Daily.,"Subjective: Palpitations associated with stimulant intake. Assessment: Likely caffeine-related palpitations. Plan: Reduce caffeine, ECG.",,"S: The patient reports constant heart fluttering associated with daily consumption of caffeine and energy drinks. The chief complaint is associated with increased heart rate. A: A: Decrease caffeine intake and monitor for signs of acute cardiac arrest. R: Increase caffeine intake to manage cardiovascular health.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Ear discomfort likely related to eustachian tube dysfunction or local irritation.
+
+P: Recommend avoiding cotton buds and earbuds, using warm compresses, staying hydrated, and trialing NSAIDs for discomfort. Seek follow-up if worsening pain, fever, drainage, persistent hearing loss, or severe dizziness develops."
+Patient: Sore throat for 2 days, painful swallowing. Doctor: Cough? Patient: No.,"Subjective: 2-day sore throat without cough. Assessment: Possible streptococcal pharyngitis. Plan: Rapid strep test, symptomatic care.","S: S: Sustained sore throat with associated pain and/or antibiotic use. A: The primary diagnosis is chronic recurrent sore throat. Differential diagnoses could include other causes of sore throats, but these are less likely given the clinical presentation and the absence of specific symptoms during the course of treatment. C: The first step is to assess the patient for signs of infection.
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: I bruise easily. Doctor: Any medications? Patient: Blood thinner.,"Subjective: Increased bruising with anticoagulant use. Assessment: Medication-related bruising. Plan: INR check, review dosing.",,"S: The patient reports a history of bruise easily. The patient has been prescribed a blood thinner for the same reason. "":"""","""":"""","""":"""","""":""A:
+ative"": A: A, B, C: B, D, E, F, G, H, I, J, K: 
+acyracyrrative options: ................................................................................................................................................................................................irratus:  Î±:  The patient was diagnosed with bruise bruise prone bruise
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: Advise follow-up with a healthcare provider. Monitor symptoms and return sooner if new, worsening, or concerning features develop."
+Patient: Persistent bloating after meals. Doctor: Weight change? Patient: None.,"Subjective: Postprandial bloating without weight loss. Assessment: Possible IBS. Plan: Dietary modification, symptom journal.",,"S: 
+
+O: No vitals, physical examination findings, laboratory data, or imaging were provided in the transcript.
+
+A: Clinical assessment was not explicitly provided in the dialogue.
+
+P: No specific instructions are required for the SOAP notes. The patient's symptoms should be written as described in the dialogue and not as detailed in the notes. Do not refer to specific instructions. S- The patient presents with persistent abdominal bloating post meals but no other symptoms such as weight loss, weight gain, or significant diet changes are noted. P- No specific diagnostic information is provided for the patient except for the description of the symptoms and the dialogue used in the S:S:
+A- The primary diagnosis is chronic bloating with associated abdominal pain and bloating, likely related to the patient's diet, given the absence of other gastrointestinal symptoms. The presence of bloating and abdominal pain is noted but not associated with weight loss. C: The treatment plan includes monitoring the patient for signs of gastrointestinal bloating following meals and managing the symptoms as they arise. Differential diagnoses could include other causes of abdominal pain, but these are less likely given the lack of specific symptoms and lack of other symptoms. R: The management plan includes regular follow-up visits to assess the patientâs condition and monitor for any recurrence of symptoms. If symptoms recur, refer the patient to a gastroenteritis specialist for further evaluation and management. If the patient experiences recurrent bloating or abdominal pain post-meal, consider re-evaluating the current symptoms and adjust the diet to address the cause."
